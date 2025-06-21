@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #2b5876, #4e4376);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+}
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #00c853;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #00b341;
+}
+.quiz-container {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.option {
+  background: #e0e0e0;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.correct { background-color: #c8e6c9 !important; }
+.wrong { background-color: #ffcdd2 !important; }
+.code-game {
+  width: 600px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  color: black;
+}
+.code-box {
+  font-family: monospace;
+  font-size: 18px;
+  background: #f1f1f1;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px dashed #aaa;
+  min-height: 50px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.option-draggable {
+  padding: 10px 15px;
+  background-color: #d7ffd9;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  cursor: grab;
+}
+#question {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #2e3a59; /* Deep navy blue */
+}
